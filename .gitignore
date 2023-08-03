@@ -1,0 +1,17 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore built files
+/dist/
+*.tsbuildinfo
+
+# Ignore GitHub Action artifacts
+*.rpk
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+
+# Ignore local development files
+.env
+.vscode/
