@@ -34,7 +34,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: pnpm Snyk Delta
       id: pnpm-snyk-delta
-      uses: snyk-tech-services/github-actions-pnpm-snyk@master
+      uses: MVPFactory/github-actions-pnpm-snyk@1.0.1
       with:
         snykToken: ${{ secrets.snykToken }}
         pnpmLockfilePath: "tests/fixtures/with-tslint/"
